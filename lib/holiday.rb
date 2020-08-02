@@ -63,9 +63,9 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holidays|
    holidays.each do |event, array|
      array.each do |supply|
-       binding.pry
        if supply == "BBQ"
         events_with_bbq << event
+        binding.pry
 end
 end
 end
