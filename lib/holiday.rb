@@ -69,6 +69,7 @@ end
 end
 end
 end
+  puts events_with_bbq
 end
 # return an array of holiday names (as symbols) where supply lists
 # include the string "BBQ"
