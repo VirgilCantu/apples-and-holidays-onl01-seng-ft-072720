@@ -59,8 +59,8 @@ def all_supplies_in_holidays(holiday_hash)
 
 
 def all_holidays_with_bbq(holiday_hash)
-events_with_bbq = []
- holiday_hash.each do |season, holidays|
+  events_with_bbq = []
+  holiday_hash.each do |season, holidays|
    holidays.each do |event, array|
      array.each do |supply|
        if supply == "BBQ"
